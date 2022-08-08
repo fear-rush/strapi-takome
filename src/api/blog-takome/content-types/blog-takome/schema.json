@@ -1,0 +1,78 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blog_takomes",
+  "info": {
+    "singularName": "blog-takome",
+    "pluralName": "blog-takomes",
+    "displayName": "blog-takome",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "upperField": {
+      "type": "richtext"
+    },
+    "lowerField": {
+      "type": "richtext"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true
+    },
+    "upperImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "lowerImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ticket": {
+      "type": "richtext"
+    },
+    "activity": {
+      "type": "richtext"
+    },
+    "facility": {
+      "type": "richtext"
+    },
+    "transportation": {
+      "type": "richtext"
+    },
+    "highlight": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "trivia": {
+      "type": "richtext"
+    }
+  }
+}

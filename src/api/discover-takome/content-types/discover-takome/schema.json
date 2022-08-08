@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "discover_takomes",
+  "info": {
+    "singularName": "discover-takome",
+    "pluralName": "discover-takomes",
+    "displayName": "discover-takome"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "locationName": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string"
+    },
+    "coverImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
